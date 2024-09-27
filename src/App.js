@@ -5,7 +5,7 @@ import Menubar from './components/Menubar';
 
 function App() {
   return (
-    <div className='App' >
+    <div className='font-serif' >
       <Menubar />
       <Outlet />
     </div>

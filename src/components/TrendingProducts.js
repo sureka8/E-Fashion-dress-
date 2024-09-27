@@ -56,11 +56,11 @@ const TrendingProducts = () => {
       >
         {products.map((product, index) => (
           <SwiperSlide key={index}>
-            <div className="flex flex-col items-center bg-white p-5 shadow-lg">
+            <div className="flex flex-col items-center  p-5 ">
               <img
                 src={product.image}
                 alt={product.name}
-                className="w-[80%] object-cover mb-4 mr-[100px] "
+                className="w-[80%] object-cover mb-4 "
               />
               <div className="flex flex-row justify-between items-center w-full ">
                 <p className="text-base text-gray-700 ">{product.name}</p>

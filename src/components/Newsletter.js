@@ -4,7 +4,7 @@ const Newsletter = () => {
   return (
     <div className='py-10 w-full  mt-10 flex items-center justify-center '>
     <div className='flex relative '>
-      <div className='h-96 w-[50rem] px-32 bg-white py-20'>
+      <div className='h-96 w-[60rem] px-32 bg-white py-20'>
         <p className='text-5xl font-semibold text-center'>Register Now and Enjoy<br />
         a 20% Discount on Your <br /> Initial Order!</p>
         <div className='h-14 w-full  border-black border-2 mt-10 flex'>
